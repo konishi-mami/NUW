@@ -3,6 +3,7 @@
     line-height: 1;
   }
 
+
   .header{
     background-color: #ea6ad4;
    }
@@ -35,8 +36,19 @@
    padding-left: 20px;
  }
 
+ .mv{
+  width: 100%;
+  height: 603px;
+  background-image: url(./img/fv1.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+.future{
+  background-color: hsl(174, 94%, 67%);
+}
+
  .future__inner{
-  background-color: #faf75d;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
