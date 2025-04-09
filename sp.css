@@ -1,0 +1,145 @@
+@media (max-width: 768px){
+  html {
+    line-height: 1;
+  }
+  body{
+    margin: 0;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+  ul{
+    list-style: none;
+  }
+  img{
+    width: 100%;
+    vertical-align:top;
+  }
+  .header{
+    background-color: #ea6ad4;
+    height: 80px;
+    margin: 0 auto;
+  }
+
+  .header__inner{
+    background-color: #f5e37f;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  .header__logo{
+    background-color: #4bb3e7;
+    font-size: 16px;
+  }
+
+  .logo-box{
+    background-color: #6850f1;
+  }
+
+  .header__list{
+    background-color: #256df3;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .header__item a{
+    background: hsl(165, 88%, 73%);
+    color: #ffffff;
+    font-size: 12px;
+  }
+
+  .mv{
+    background-size: cover;
+    background-position: center;
+  }
+
+  .future__inner{
+    background-color: #faf75d;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 20px 100px;
+  }
+
+  .future__title{
+    background-color: #f7b935;
+    font-size: 32px ;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 47px;
+  }
+
+  .feature__box{
+    background-color: hsl(268, 81%, 60%);
+
+  }
+
+  .img-area{
+    max-width: 100%;
+    height: auto;
+    background:url(./img/sample1.jpg);
+    margin-bottom: 20px;
+  }
+
+  .text-area{
+   background-color: hsl(143, 99%, 30%);
+  }
+
+  .text-area-title{
+   color: #555555;
+   font-size: 32px;
+   font-weight: bold;
+   text-align: center;
+   margin-bottom: 30px;
+  }
+
+  .text-area-desc{
+   color: #555555;
+   font-size: 16px;
+   line-height: 1.5;
+   margin-bottom: 30px;
+  }
+
+ .cta-btn{
+   display: inline-block;
+   padding: 15px 57px;
+   color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+   border-radius: 10px;
+   align-content: center;
+   background-color: #EFA358;
+  }
+
+ .footer{
+   background-color: #EFA358;
+   padding: 22px 0 19px;
+   text-align: center;
+   position: fixed; フッターを固定する
+  }
+
+ .footer__logo{
+   font-size: 24px;
+   font-weight: bold;
+   color: #fff;
+}
+
+ .copylight{
+   color: #fff;
+ }
+}
