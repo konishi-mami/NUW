@@ -16,10 +16,10 @@
   ul{
     list-style: none;
   }
-  img{
+  /* img{
     width: 100%;
     vertical-align:top;
-  }
+  } */
   .header{
     background-color: #ea6ad4;
     height: 80px;
@@ -63,7 +63,8 @@
   }
 
   .mv{
-    background-size: cover;
+    background: url(./img/fv1.jpg);
+    
     background-position: center;
   }
 
